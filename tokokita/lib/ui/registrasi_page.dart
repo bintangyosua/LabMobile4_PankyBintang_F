@@ -19,7 +19,7 @@ class _RegistrasiPageState extends State<RegistrasiPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Registrasi"),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Colors.greenAccent[700],
       ),
       body: SingleChildScrollView(
         child: Padding(

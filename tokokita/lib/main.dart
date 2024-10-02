@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tokokita/ui/login_page.dart';
+import 'package:tokokita/ui/produk_page.dart';
 import 'package:tokokita/ui/registrasi_page.dart';
 
 void main() {
@@ -13,7 +15,9 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Toko Kita',
       debugShowCheckedModeBanner: false,
-      home: RegistrasiPage(),
+      // home: RegistrasiPage(),
+      home: LoginPage(),
+      // home: ProdukPage(),
     );
   }
 }
