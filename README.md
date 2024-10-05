@@ -17,3 +17,23 @@
 ### 3. Ubah, Hapus, dan Drawer
 
 ![Ubah, Hapus, dan Drawer](./snapshot_aplikasi/p4/ubah_hapus_drawer.png)
+
+# Tugas Praktikum Pemrograman Mobile 5
+
+1. Nama : Panky Bintang Pradana Yosua
+2. NIM : H1D022077
+3. Shift Baru : F
+
+## Penjelasan Kode
+
+### 1. Registrasi
+
+### 2. Login
+
+### 3. List Produk
+
+### 4. Tambah Produk
+
+### 5. Detail Produk
+
+### 6. Sidebar dan Logout
