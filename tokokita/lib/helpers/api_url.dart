@@ -1,5 +1,5 @@
 class ApiUrl {
-  static const String baseUrl = 'https://5bcb-66-96-225-161.ngrok-free.app';
+  static const String baseUrl = 'http://192.168.18.28:8080';
   static const String registrasi = baseUrl + '/registrasi';
   static const String login = baseUrl + '/login';
   static const String listProduk = baseUrl + '/produk';
