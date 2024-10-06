@@ -1,3 +1,31 @@
+# Daftar Isi
+
+- [Daftar Isi](#daftar-isi)
+- [Tugas Praktikum Pemrograman Mobile 4](#tugas-praktikum-pemrograman-mobile-4)
+  - [Snapshot Aplikasi](#snapshot-aplikasi)
+    - [1. Registrasi dan Login](#1-registrasi-dan-login)
+    - [2. List, Tambah, dan Detail](#2-list-tambah-dan-detail)
+    - [3. Ubah, Hapus, dan Drawer](#3-ubah-hapus-dan-drawer)
+- [Tugas Praktikum Pemrograman Mobile 5](#tugas-praktikum-pemrograman-mobile-5)
+  - [Penjelasan Kode](#penjelasan-kode)
+    - [1. Registrasi](#1-registrasi)
+      - [1.1 Halaman Registrasi `tokokita\lib\ui\registrasi_page.dart`](#11-halaman-registrasi-tokokitalibuiregistrasi_pagedart)
+      - [1.2 Registrasi Sukses](#12-registrasi-sukses)
+    - [2. Login](#2-login)
+      - [2.1 Halaman Login `tokokita\lib\ui\login_page.dart`](#21-halaman-login-tokokitalibuilogin_pagedart)
+      - [2.2 Login Gagal](#22-login-gagal)
+    - [3. List Produk `tokokita\lib\ui\produk_page.dart`](#3-list-produk-tokokitalibuiproduk_pagedart)
+    - [4. Tambah Produk `tokokita\lib\ui\produk_form.dart`](#4-tambah-produk-tokokitalibuiproduk_formdart)
+      - [4.1 Halaman Tambah Produk](#41-halaman-tambah-produk)
+      - [4.2 Tambah Produk Sukses](#42-tambah-produk-sukses)
+    - [5. Detail Produk `tokokita\lib\ui\produk_detail.dart`](#5-detail-produk-tokokitalibuiproduk_detaildart)
+      - [5.1 Halaman Detail Produk](#51-halaman-detail-produk)
+      - [5.2 Halaman Edit Produk `tokokita\lib\ui\produk_form.dart`](#52-halaman-edit-produk-tokokitalibuiproduk_formdart)
+      - [5.3 Pop Up Hapus Produk `tokokita\lib\ui\produk_detail.dart`](#53-pop-up-hapus-produk-tokokitalibuiproduk_detaildart)
+    - [6. Sidebar dan Logout `tokokita\lib\ui\produk_page.dart`](#6-sidebar-dan-logout-tokokitalibuiproduk_pagedart)
+
+<!-- TOC end -->
+
 # Tugas Praktikum Pemrograman Mobile 4
 
 1. Nama : Panky Bintang Pradana Yosua
