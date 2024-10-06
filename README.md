@@ -65,7 +65,7 @@ Widget build(BuildContext context) {
 }
 ```
 
-![](./snapshot_aplikasi/p5/registrasi.png)
+![Halaman Registrasi](./snapshot_aplikasi/p5/registrasi.png)
 
 #### 1.2 Registrasi Sukses
 
@@ -106,7 +106,7 @@ void _submit() {
 }
 ```
 
-![](./snapshot_aplikasi/p5/registrasi_sukses.png)
+![Registrasi Sukses](./snapshot_aplikasi/p5/registrasi_sukses.png)
 
 ### 2. Login
 
@@ -148,7 +148,7 @@ Widget build(BuildContext context) {
 }
 ```
 
-![](./snapshot_aplikasi/p5/login.png)
+![Halaman Login](./snapshot_aplikasi/p5/login.png)
 
 #### 2.2 Login Gagal
 
@@ -191,7 +191,7 @@ void _submit() {
 }
 ```
 
-![](./snapshot_aplikasi/p5/login_gagal.png)
+![Login Gagal](./snapshot_aplikasi/p5/login_gagal.png)
 
 ### 3. List Produk `tokokita\lib\ui\produk_page.dart`
 
@@ -213,7 +213,7 @@ body: FutureBuilder<List>(
 ),
 ```
 
-![](./snapshot_aplikasi/p5/list_produk.png)
+![Halaman List Produk](./snapshot_aplikasi/p5/list_produk.png)
 
 ### 4. Tambah Produk `tokokita\lib\ui\produk_form.dart`
 
@@ -264,7 +264,7 @@ Widget build(BuildContext context) {
 }
 ```
 
-![](./snapshot_aplikasi/p5/tambah_produk.png)
+![Halaman Form Tambah Produk](./snapshot_aplikasi/p5/tambah_produk.png)
 
 #### 4.2 Tambah Produk Sukses
 
@@ -297,7 +297,7 @@ simpan() {
 }
 ```
 
-![](./snapshot_aplikasi/p5/tambah_produk_sukses.png)
+![Tambah Produk Sukses](./snapshot_aplikasi/p5/tambah_produk_sukses.png)
 
 ### 5. Detail Produk `tokokita\lib\ui\produk_detail.dart`
 
@@ -336,7 +336,7 @@ Widget build(BuildContext context) {
 }
 ```
 
-![](./snapshot_aplikasi/p5/detail_produk.png)
+![Halaman Detail Produk](./snapshot_aplikasi/p5/detail_produk.png)
 
 #### 5.2 Halaman Edit Produk `tokokita\lib\ui\produk_form.dart`
 
@@ -455,4 +455,4 @@ Future logout() async {
 }
 ```
 
-![](./snapshot_aplikasi/p5/sidebar_logout.png)
+![Sidebar dan Logout](./snapshot_aplikasi/p5/sidebar_logout.png)
