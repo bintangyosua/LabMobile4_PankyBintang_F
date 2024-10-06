@@ -223,6 +223,23 @@ void _submit() {
 
 ### 3. List Produk `tokokita\lib\ui\produk_page.dart`
 
+Sebelum merender halaman login, akan dicek terlebih dahulu apakah ada token pada storage. Jika ada akan diarahkan ke halaman list produk. Sedangkan jika tidak ada token maka diarahkan pada halaman login untuk melakukan proses login supaya mendapatkan token, sehingga dapat mengunjungi halaman list produk.
+
+```dart
+void isLogin() async {
+  var token = await UserInfo().getToken();
+  if (token != null) {
+    setState(() {
+      page = const ProdukPage();
+    });
+  } else {
+    setState(() {
+      page = const LoginPage();
+    });
+  }
+}
+```
+
 Halaman list produk dirender pada kode di bawah. Mendapatkan list produk dengan request api `GET` ke server pada path `/produk`. Hasilnya akan disimpan pada variable `snapshot.data`
 
 ```dart
@@ -248,23 +265,6 @@ body: FutureBuilder<List>(
 Halaman ini digunakan untuk menambah produk baru.
 
 #### 4.1 Halaman Tambah Produk
-
-Sebelum merender halaman login, akan dicek terlebih dahulu apakah ada token pada storage. Jika ada akan diarahkan ke halaman list produk. Sedangkan jika tidak ada token maka diarahkan pada halaman login untuk melakukan proses login supaya mendapatkan token, sehingga dapat mengunjungi halaman list produk.
-
-```dart
-void isLogin() async {
-  var token = await UserInfo().getToken();
-  if (token != null) {
-    setState(() {
-      page = const ProdukPage();
-    });
-  } else {
-    setState(() {
-      page = const LoginPage();
-    });
-  }
-}
-```
 
 Halaman tambah produk dirender pada kode di bawah.
 
